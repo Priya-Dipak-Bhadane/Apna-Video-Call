@@ -1,7 +1,7 @@
 .landingPageContainer {
   width: 100vw;
   height: 100vh;
-  background: url(C:\Users\Admin\OneDrive\Desktop\ApnaVideoCall\frontend\public\background.png);
+  background: url('/background.png');
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
