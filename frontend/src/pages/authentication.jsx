@@ -23,6 +23,7 @@ import Typography from '@mui/material/Typography';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { AuthContext } from '../contexts/AuthContext';
 import { Snackbar } from '@mui/material';
+import bgImage from "../assets/background.png";
 
 
 
@@ -85,7 +86,7 @@ export default function Authentication() {
     sm={7}
     md={8}
     sx={{
-      backgroundImage: "url(https://picsum.photos/1600/900?random=1)",
+      backgroundImage: `url(${bgImage})`,
       backgroundRepeat: "no-repeat",
       backgroundSize: "cover",
       backgroundPosition: "center",
